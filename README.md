@@ -21,8 +21,8 @@ This repository contains a simple shell script that fetches and displays the cur
    nano ~/.bashrc # For bash
 
    Add the following line at the end of the file:
-   alias getWeather="/path/to/downloaded/getWeather.sh"
-   **Example path:** 
+   alias getWeather="/path/to/downloaded/getWeather.sh"\
+   **Example path:** \
    ***alias getWeather="/Users/timcook/Documents/shellScripts/getWeather.sh"***
 
 4. **Restart your shell:**
