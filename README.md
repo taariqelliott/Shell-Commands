@@ -30,7 +30,7 @@ This repository contains a simple shell script that fetches and displays the cur
    # or
    source ~/.bashrc # For bash
 
-5. **Run the script with a zip code of your choice:**\
+5. **Run the script with a zip code of your choice in a new terminal window:**\
    getWeather 90001\
    |\
    |\
