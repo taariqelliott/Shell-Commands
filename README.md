@@ -42,3 +42,10 @@ This repository contains a simple shell script that fetches and displays the cur
 * Ensure the path to `getWeather.sh` in your `.zshrc` or `.bashrc` file is correct (spaces can cause issues). Use `\` to escape spaces or paste your path into ChatGPT with the template and use the prompt "spaces in my file path are causing issues" to get the correct file path. Then save with `Ctrl + X`, then `Y`, then `Enter`. Followed by `source ~/.bashrc` (for Bash) or `source ~/.zshrc` (for Zsh), and finally run `getWeather 90001`.
 
 * Make sure `curl` is installed and available in your system.
+
+
+## Extras
+
+**Change the format number in the script!**\
+"WEATHER_DATA=$(curl -s "wttr.in/$1")" will give you a visual display with animations sometimes\
+WEATHER_DATA=$(curl -s "wttr.in/$1?format=2") will give you extra emojis!\

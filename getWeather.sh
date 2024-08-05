@@ -3,7 +3,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-WEATHER_DATA=$(curl -s "wttr.in/$1?format=3")
+WEATHER_DATA=$(curl -s "wttr.in/$1?format=2")
 
 if [ $? -ne 0 ]; then
   echo "Error fetching weather data"
