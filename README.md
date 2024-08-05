@@ -31,10 +31,10 @@ This repository contains a simple shell script that fetches and displays the cur
    source ~/.bashrc # For bash
 
 5. **Run the script with a zip code of your choice:**
-   getWeather 90001
-   |
-   |
-   |
+   getWeather 90001\
+   |\
+   |\
+   |\
    "The weather for 20774: 20774: 🌦   +68°F"
 
 ## Troubleshooting
