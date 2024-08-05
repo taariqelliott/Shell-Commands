@@ -35,7 +35,7 @@ This repository contains a simple shell script that fetches and displays the cur
    |\
    |\
    |\
-   "The weather for 20774: 20774: 🌦   +68°F"
+   "The weather for 90001: 90001: ☀️   +88°F"
 
 ## Troubleshooting
 
