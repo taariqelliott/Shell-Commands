@@ -47,5 +47,5 @@ This repository contains a simple shell script that fetches and displays the cur
 ## Extras
 
 **Change the format number in the script!**\
-"WEATHER_DATA=$(curl -s "wttr.in/$1")" will give you a visual display with animations sometimes\
+WEATHER_DATA=$(curl -s "wttr.in/$1") will give you a visual display with animations sometimes\
 WEATHER_DATA=$(curl -s "wttr.in/$1?format=2") will give you extra emojis!\
